@@ -1,0 +1,39 @@
+@import url("globals.css");
+@import url("typebase.css");
+
+/* Leading paragraph text */
+.lead {
+  font-size: 1.414rem;
+}
+
+.underline {
+  position: relative;
+  display: inline-block;
+}
+
+.underline>svg {
+  position: absolute;
+  bottom: -0.25rem;
+  left: -0.25rem;
+}
+
+.underline.in>svg,
+.underline.out>svg {
+  transition: stroke-dashoffset 800ms ease-in-out;
+}
+
+.underline>a {
+  transition: color 600ms ease-in-out;
+}
+
+.underline:not(.in)>a {
+  color: var(--foreground) !important;
+}
+
+footer a {
+  transition: color 300ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--hover-color);
+}
