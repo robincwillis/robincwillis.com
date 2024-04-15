@@ -1,5 +1,4 @@
 import FragmentCanvas from "./node_modules/fragment-canvas/dist/index.mjs";
-import { Baseliner } from "./baseliner.js";
 
 import myShader from "./shader.js";
 
